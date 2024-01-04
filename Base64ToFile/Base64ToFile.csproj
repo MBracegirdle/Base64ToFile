@@ -10,6 +10,7 @@
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>C:\Users\matth\source\repos\keyPair.snk</AssemblyOriginatorKeyFile>
     <PackAsTool>False</PackAsTool>
+    <ApplicationIcon>Base64.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -21,5 +22,9 @@
     <Optimize>False</Optimize>
     <WarningLevel>9999</WarningLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Base64.ico" />
+  </ItemGroup>
 
 </Project>
